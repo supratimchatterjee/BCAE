@@ -1,0 +1,58 @@
+/*
+Theme Name: Enfold Child
+Description: A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the Enfold Wordpress Theme. If you plan to do a lot of file modifications we recommend to use this Theme instead of the original Theme. Updating wil be much easier then.
+Version: 1.0
+Author: Kriesi
+Author URI: http://www.kriesi.at
+Template: enfold
+*/
+
+
+
+/*Add your own styles here:*/
+#top #footer { padding: 0; }
+
+#top #footer .widget { margin: 0; }
+
+#top #footer .widget ul { display: table; }
+
+#top #footer .widget_nav_menu li { display: table-cell; text-align: center; }
+#top #footer .widget_nav_menu li:hover { background-color: #ddd; }
+
+#top #footer .widget_nav_menu li a { display: block; padding: 10px; }
+
+#socket .copyright { text-align: center; float: none; display: block; }
+
+.box-title p{margin-bottom:0;}
+.amount p{margin-top:20px;}
+.box-des {margin-top:0 !important;}
+#input_1_1 > li {display: block !important;}
+#gform_fields_1 li:not(:nth-child(1)){
+display:inline-block; width:50%;
+}
+/*08.23.2017*/
+#menu-item-shop {border: none;}
+.avia-menu.av_menu_icon_beside {border:none; margin-right: 0;}
+
+/*08.24.2017*/
+.home-category a {text-decoration: none !important; float: left; margin-top: -5px;}
+.home-banner {text-align: center;}
+.home-banner h2{padding-right: 25px !important;}
+.doted-border .hr-inner { border-top: 3px #fff; border-top-style: dotted;}
+.inline-content-button { margin-top: 20px !important; margin-bottom: 20px !important; text-align: center;}
+#top .avia-button-fullwidth { max-width:517px; padding: 10px 16px; font-size: 19px; display: inline-block; }
+.avia-button {border-radius: 0 !important;}
+.sub_menu_socket { display: none;}
+.avia_textblock  a{ color: #3399FF;}
+.header_color .avia-menu-text { padding-left: 15px !important; padding-right: 15px !important; border-radius: 0 !important;}
+
+/*08.28.2017*/
+.single-post .av-share-box{display:none;}
+.single-post .side-container-comment-inner{display:none;}
+.single-post .comment_container{display:none;}
+.single-post .av-content-full{padding-bottom: 0;}
+.social_bookmarks li {margin-right: 5px;}
+#top #wrap_all .av-social-link-facebook a { background-color: #37589b; color: #fff; }
+#top #wrap_all .av-social-link-pinterest a { background-color: #cb2027; color: #fff; }
+#top #wrap_all .av-social-link-twitter a { color: #fff; background-color: #46d4fe; }
+#top #wrap_all .av-social-link-instagram a {color: #fff; background-color: #a67658; }
